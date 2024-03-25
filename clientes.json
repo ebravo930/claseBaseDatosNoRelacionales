@@ -1,0 +1,80 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "nombre": "Elena",
+        "apellido": "Nito Del Bosque",
+        "email": "elena.nito@example.com",
+        "edad": 30,
+        "direccion": {
+          "calle": "Calle Falsa",
+          "numero": 123,
+          "ciudad": "Ciudad Ficticia",
+          "pais": "País Inventado"
+        },
+        "pedidos": [
+          {
+            "idPedido": 1,
+            "fecha": "2023-03-10",
+            "productos": ["Producto 1", "Producto 2"],
+            "total": 100.00
+          },
+          {
+            "idPedido": 2,
+            "fecha": "2023-04-15",
+            "productos": ["Producto 3"],
+            "total": 50.00
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Mario",
+        "apellido": "Neta",
+        "email": "mario.neta@example.com",
+        "edad": 42,
+        "direccion": {
+          "calle": "Avenida Inventada",
+          "numero": 456,
+          "ciudad": "Ciudad Imaginaria",
+          "pais": "País Ficticio"
+        },
+        "pedidos": [
+          {
+            "idPedido": 3,
+            "fecha": "2023-05-20",
+            "productos": ["Producto 4", "Producto 5", "Producto 6"],
+            "total": 150.00
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Susana",
+        "apellido": "Oria",
+        "email": "susana.oria@example.com",
+        "edad": 36,
+        "direccion": {
+          "calle": "Ronda de la Fantasía",
+          "numero": 789,
+          "ciudad": "Metropolis",
+          "pais": "Utopía"
+        },
+        "pedidos": [
+          {
+            "idPedido": 4,
+            "fecha": "2023-06-10",
+            "productos": ["Producto 7"],
+            "total": 70.00
+          },
+          {
+            "idPedido": 5,
+            "fecha": "2023-07-22",
+            "productos": ["Producto 8", "Producto 9"],
+            "total": 90.00
+          }
+        ]
+      }
+    ]
+  }
+  
